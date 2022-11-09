@@ -1,0 +1,166 @@
+*{
+padding: 0;
+margin: 0;
+font-family: "Open Sans", sans-serif;
+}
+.maincontainer{
+display: flex;
+justify-content: center;
+box-sizing: border-box;
+}
+main{
+display: flex;
+flex-direction: column;
+box-sizing: border-boxv;
+background-color: rgb(255, 255, 255);
+width: 120vh;
+height: auto;
+
+}
+.header{
+height: 20%;
+width: 100%;
+display: flex;
+padding: 10vh 10vh 2vh 0;
+align-items: center;
+}
+.imagempedro{
+width: 18vh;
+height: 18vh;
+border-radius: 50%;
+padding: 2vh;
+}
+.titulos{
+display: flex;
+flex-direction: column;
+gap: 0.1vh;
+
+justify-content: flex-start;
+}
+.titulos > h2 , .titulos > h5 {
+padding: 0;
+margin: 0;
+}
+.titulos > h2 {
+font-size: 2rem;
+}
+.titulos > h5 {
+font-size: 1.2rem;
+}
+.profile > h1 , .education > h2 , .education > h3 , .internships > h2 , .internships > h3{
+padding: 0.5vh 0.8vh 0.3vh 0.8vh;
+}
+.profile > p {
+font-size: 0.8rem;
+width: 80%;
+}
+.profile > p , .education > p, .internships > p{
+padding: 0.7vh 0 0.8vh 0.8vh;
+text-align: justify;
+}
+#nationality , #birth{
+  color: #ffffff75 ;
+}
+footer {
+  padding: 6vh;
+  background-color: rgb(13, 86, 150);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5rem;
+}
+aside{
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: rgb(13, 86, 150);
+width: 50vh;
+padding: 3vh;
+}
+.details{
+padding-top: 33vh;
+color: whitesmoke;
+display: flex;
+flex-direction: column;
+gap: 2vh;
+}
+.progressbarhtml {
+height: 6px;
+background-color: rgb(121, 121, 121);
+display: flex;
+
+}
+.progressbarhtml::before {
+content: "";
+width: 80%;
+background-color: #ffffff;
+height: 6px;
+
+}
+.progressbarcss {
+height: 6px;
+background-color: rgb(121, 121, 121);
+display: flex;
+}
+.progressbarcss::before {
+content: "";
+width: 80%;
+background-color: #ffffff;
+height: 6px;
+}
+.progressbarjavascript {
+height: 6px;
+background-color: rgb(121, 121, 121);
+display: flex;
+}
+.progressbarjavascript::before {
+content: "";
+width: 70%;
+background-color: #ffffff;
+height: 6px;
+}
+.progressbargithub {
+height: 6px;
+background-color: rgb(121, 121, 121);
+display: flex;
+}
+.progressbargithub::before {
+content: "";
+width: 50%;
+background-color: #ffffff;
+height: 6px;
+}
+.progressbarnodejs {
+height: 6px;
+background-color: rgb(121, 121, 121);
+display: flex;
+}
+.progressbarnodejs::before {
+content: "";
+width: 45%;
+background-color: #ffffff;
+height: 6px;
+}
+.progressbarangular {
+height: 6px;
+background-color: rgb(121, 121, 121);
+display: flex;
+}
+.progressbarangular::before {
+content: "";
+width: 35%;
+background-color: #ffffff;
+height: 6px;
+}
+.progressbarbootstrap {
+height: 6px;
+background-color: rgb(121, 121, 121);
+display: flex;
+}
+.progressbarbootstrap::before {
+content: "";
+width: 35%;
+background-color: #ffffff;
+height: 6px;
+}
